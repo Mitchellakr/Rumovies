@@ -25,7 +25,8 @@ function loadMovies(movie) {
                         </div>
                     </div>
                     `
-                    suggestions.appendChild(movieListItems)
+                    // suggestions.appendChild(movieListItems)
+                    suggestions.prepend(movieListItems)
                 }
             }
         })
